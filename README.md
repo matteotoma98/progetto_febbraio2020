@@ -2,8 +2,9 @@
 ## Progetto Programmazione ad Oggetti Feb2020
 **Creato da:**
 
-> Federico Joseph Panackal<
->Matteo Toma<
+> Federico Joseph Panackal
+
+>Matteo Toma
 
 Questo progetto permette di eseguire certe operazioni su un file TSV scaricato dall'url contenuta in un JSON, tramite un applicazione Spring implementata in Java.
 
