@@ -11,7 +11,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+import it.univpm.progetto_febbraio2020.services.Downloader;
+import it.univpm.progetto_febbraio2020.services.MetaData;
+import it.univpm.progetto_febbraio2020.services.TSVReader;
 
 
 @SpringBootApplication
@@ -30,7 +32,7 @@ public class ProgettoFebbraio2020Application {
 		
 		TSVReader parser = new TSVReader(filename); //Parsing del file tsv
 		parser.parsing();
-
+		MetaData metadata = new MetaData(); //Creating the metadata map
 	
 	}
 
