@@ -15,7 +15,6 @@ import it.univpm.progetto_febbraio2020.services.Downloader;
 import it.univpm.progetto_febbraio2020.services.MetaData;
 import it.univpm.progetto_febbraio2020.services.TSVReader;
 
-
 @SpringBootApplication
 public class ProgettoFebbraio2020Application {
 
