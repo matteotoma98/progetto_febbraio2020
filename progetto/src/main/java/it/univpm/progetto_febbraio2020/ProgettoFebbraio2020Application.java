@@ -35,6 +35,7 @@ public class ProgettoFebbraio2020Application {
         String filename = "datafile.tsv;";
         String url = "http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/apro_mk_colm.tsv.gz&unzip=true";
 
+        
         if (Files.exists(Paths.get(filename))) { //Controlla se il file esiste già, altrimenti lo scarica
             System.out.println("File già scaricato.");
         } else {
