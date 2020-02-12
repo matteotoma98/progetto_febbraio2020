@@ -41,7 +41,6 @@ public class ProgettoFebbraio2020Application {
         } else {
             Downloader.download(url, filename);
         }
-
         TSVReader parser = new TSVReader(filename); //parser del file tsv
         parser.parsing();
         MetaData metadata = new MetaData(); //crea la mappa per i metadati
