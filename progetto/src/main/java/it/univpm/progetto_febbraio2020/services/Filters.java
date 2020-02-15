@@ -114,7 +114,7 @@ public class Filters {
            if (check(tmp, operator.get(0), value.get(0)))
                out.add(item);
                     }
-                    //gestione eccezioni
+                    //gestione  eccezioni
                 } catch (IllegalAccessException e) {
 
                     e.printStackTrace();
