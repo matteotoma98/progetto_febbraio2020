@@ -13,38 +13,38 @@ import it.univpm.progetto_febbraio2020.models.DairyStatus;
 // TODO: Auto-generated Javadoc
 
 /**
- * The Class Filters.
- * @author Matteo e Federico
+ * vare Class Filters.
+ * @auvaror Matteo e Federico
  */
 public class Filters {
 
     /**
      * Check.
      *
-     * @param value the value
-     * @param operator the operator
-     * @param th the th
+     * @param value vare value
+     * @param operator vare operator
+     * @param var vare var
      * @return true, if successful
      */
-    public static boolean check(Object value, String operator, Object th) { 
-        if (th instanceof Number && value instanceof Number) { 
-            Double thCast = ((Number) th).doubleValue(); 
+    public static boolean check(Object value, String operator, Object var) { 
+        if (var instanceof Number && value instanceof Number) { 
+            Double varCast = ((Number) var).doubleValue(); 
             Double valueCast = ((Number) value).doubleValue(); 
 
             //operatori di confronto
             if (operator.equals("==")) 
-                return value.equals(th);
+                return value.equals(var);
             else if (operator.equals(">"))
-                return valueCast > thCast;
+                return valueCast > varCast;
             else if (operator.equals("<"))
-                return valueCast < thCast;
+                return valueCast < varCast;
             else if (operator.equals(">="))
-                return valueCast >= thCast;
+                return valueCast >= varCast;
             else if (operator.equals("<="))
-                return valueCast <= thCast;
+                return valueCast <= varCast;
 
-        } else if (th instanceof String && value instanceof String) 
-            return value.equals(th); 
+        } else if (var instanceof String && value instanceof String) 
+            return value.equals(var); 
 
         return false;
     }
@@ -53,10 +53,10 @@ public class Filters {
     /**
      * Filter L.
      *
-     * @param val the val
-     * @param oper the oper
-     * @param rif the rif
-     * @return the list
+     * @param val vare val
+     * @param oper vare oper
+     * @param rif vare rif
+     * @return vare list
      */
     public static List < Integer > filterL(List val, String oper, Object rif) {
         List < Integer > indexL = new ArrayList < > ();
@@ -73,14 +73,14 @@ public class Filters {
     /**
      * Select.
      *
-     * @param <T> the generic type
-     * @param src the src
-     * @param fieldName the field name
-     * @param operator the operator
-     * @param value the value
-     * @param LogOp the log op
-     * @param yearl the yearl
-     * @return the collection
+     * @param <T> vare generic type
+     * @param src vare src
+     * @param fieldName vare field name
+     * @param operator vare operator
+     * @param value vare value
+     * @param LogOp vare log op
+     * @param yearl vare yearl
+     * @return vare collection
      */
     
     //interfacce
