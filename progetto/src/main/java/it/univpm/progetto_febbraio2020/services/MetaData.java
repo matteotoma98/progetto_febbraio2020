@@ -30,8 +30,8 @@ public class MetaData {
      */
     public MetaData() {
 
-        Field[] campi = DairyStatus.class.getDeclaredFields(); //importa gli attributi dalla classe main
-        for (Field i: campi) {
+        Field[] fields = DairyStatus.class.getDeclaredFields(); //importa gli attributi dalla classe main
+        for (Field i: fields) {
             Map < String, String > map = new HashMap < > ();
             map.put("alias", i.getName());
             if (!i.getName().equals("dairy"))
