@@ -1,14 +1,12 @@
-package it.univpm.progetto_febbraio2020.services;
+package it.univpm.dairyapp.servizi;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import it.univpm.progetto_febbraio2020.services.TSVReader;
-
-
-import it.univpm.progetto_febbraio2020.models.DairyStatus;
+import it.univpm.dairyapp.modelli.DairyStatus;
+import it.univpm.dairyapp.servizi.LettoreTSV;
 
 // TODO: Auto-generated Javadoc
 
@@ -16,7 +14,7 @@ import it.univpm.progetto_febbraio2020.models.DairyStatus;
  * vare Class Filters.
  * @auvaror Matteo e Federico
  */
-public class Filters {
+public class Filtri {
 
     /**
      * Check.
@@ -97,10 +95,10 @@ public class Filters {
       try {
          if (m.getName().equals("getDairy")) { 
             int index = Integer.parseInt((String) yearl.get(0));
-                 List tmpV = TSVReader.getYearM(index);
+                 List tmpV = LettoreTSV.getYearM(index);
                  List < Integer > indexList = filterL(tmpV, operator.get(0), value.get(0)); 
                  List < DairyStatus > outlist = new ArrayList < > ();
-                 List < DairyStatus > dairylist = TSVReader.getDairyList();
+                 List < DairyStatus > dairylist = LettoreTSV.getDairyList();
                  List < DairyStatus > dairylistApp = new ArrayList(dairylist);
 
       for (int i: indexList) {

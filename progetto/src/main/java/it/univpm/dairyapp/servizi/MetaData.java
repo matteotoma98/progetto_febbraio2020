@@ -1,11 +1,12 @@
-package it.univpm.progetto_febbraio2020.services;
-import it.univpm.progetto_febbraio2020.models.DairyStatus;
+package it.univpm.dairyapp.servizi;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 // TODO: Auto-generated Javadoc
+
+import it.univpm.dairyapp.modelli.DairyStatus;
 
 /**
  * The Class MetaData.

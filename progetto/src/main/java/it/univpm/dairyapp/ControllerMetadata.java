@@ -1,13 +1,13 @@
-package it.univpm.progetto_febbraio2020;
+package it.univpm.dairyapp;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 
+import it.univpm.dairyapp.servizi.MetaData;
+
 import java.util.List;
 import java.util.Map;
-
-import it.univpm.progetto_febbraio2020.services.MetaData;
 
 
 // TODO: Auto-generated Javadoc

@@ -1,4 +1,4 @@
-package it.univpm.progetto_febbraio2020.services;
+package it.univpm.dairyapp.servizi;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -7,16 +7,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
-import it.univpm.progetto_febbraio2020.models.DairyStatus;
-// TODO: Auto-generated Javadoc
+import it.univpm.dairyapp.modelli.DairyStatus;
 
 /**
  * The Class TSVReader.
  * @author Matteo e Federico
  */
-public class TSVReader {
+public class LettoreTSV {
 
     /** The Constant TAB_DELIMETER. */
     private final static String TAB_DELIMETER = "	"; 
@@ -36,7 +33,7 @@ public class TSVReader {
      * @param filename the filename
      */
 
-    public TSVReader(String filename) {
+    public LettoreTSV(String filename) {
         this.filename = filename;
 
         try {

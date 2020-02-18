@@ -1,4 +1,4 @@
-package it.univpm.progetto_febbraio2020.models;
+package it.univpm.dairyapp.modelli;
 
 // TODO: Auto-generated Javadoc
 /**

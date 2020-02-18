@@ -1,15 +1,14 @@
-package it.univpm.progetto_febbraio2020;
+package it.univpm.dairyapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
+import it.univpm.dairyapp.servizi.Downloader;
+import it.univpm.dairyapp.servizi.MetaData;
+import it.univpm.dairyapp.servizi.LettoreTSV;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import it.univpm.progetto_febbraio2020.services.Downloader;
-import it.univpm.progetto_febbraio2020.services.MetaData;
-import it.univpm.progetto_febbraio2020.services.TSVReader;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -38,7 +37,7 @@ public class DairyAppMain {
             Downloader.download(url, filename);
         }
 
-        TSVReader parser = new TSVReader(filename); //parser del file tsv
+        LettoreTSV parser = new LettoreTSV(filename); //parser del file tsv
         parser.parsing();
         MetaData metadata = new MetaData(); //crea la mappa per i metadati
 
