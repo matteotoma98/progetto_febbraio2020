@@ -18,7 +18,7 @@ import it.univpm.progetto_febbraio2020.services.TSVReader;
  */
 
 @SpringBootApplication
-public class ProgettoFebbraio2020Application {
+public class DairyAppMain {
 
     /**
      * The main method.
@@ -27,7 +27,7 @@ public class ProgettoFebbraio2020Application {
      * @throws Exception the exception
      */
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(ProgettoFebbraio2020Application.class, args);
+        SpringApplication.run(DairyAppMain.class, args);
         String filename = "dairydata.tsv";
         String url = "http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/apro_mk_colm.tsv.gz&unzip=true";
 
