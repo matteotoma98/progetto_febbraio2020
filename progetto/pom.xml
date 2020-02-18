@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>it.univpm </groupId>
-	<artifactId>progetto_febbraio2020</artifactId>
+	<artifactId>dairyapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>progetto_febbraio2020</name>
+	<name>dairyapp</name>
 	<description>Progetto febbraio 2020</description>
 
 	<properties>
