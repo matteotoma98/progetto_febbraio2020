@@ -1,4 +1,4 @@
-﻿## Progetto Programmazione ad Oggetti Feb2020
+## Progetto Programmazione ad Oggetti Feb2020
 **Creato da:**
  - **Federico Joseph Panackal** *1083626*
  - **Matteo Toma** *1082053*
@@ -51,18 +51,25 @@ ___
 -   Conteggio occorrenze uniche
 -   Conteggio elementi totali
 ___
--**GET Dairy**
+**GET Dairy**
 ![Get Dairy](https://i.imgur.com/oHunutt.png)
+___
 **GET Metadata**
 ![GET Metadata](https://imgur.com/K5NpTYU.png)
+___
 **GET Stats**
 ![enter image description here](https://imgur.com/qIA6K1H.png)
+___
 **Diagramma delle classi**
-![Diagramma delle classi](https://imgur.com/Dwf8t8g.png)
+![Diagramma delle classi](https://i.imgur.com/K8ixPsI.png)
+___
 ***Diagramma dei casi d'uso***
 ![Diagramma dei casi d'uso](https://imgur.com/CEydlYF.png)
+___
 **Diagramma delle sequenze per i filtri**
-![enter image description here](https://imgur.com/1BRIP3l.png)
+![Diagramma delle sequenze per i filtri](https://imgur.com/1BRIP3l.png)
+___
 **Diagramma delle sequenze dei metadati**
-![enter image description here](https://i.imgur.com/LYWvBYk.png)
+
+![Diagramma delle sequenze dei metadati](https://i.imgur.com/LYWvBYk.png)
 
