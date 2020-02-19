@@ -40,7 +40,7 @@ public class LettoreTSV {
             reader = new BufferedReader(new FileReader(this.filename));
 
         } catch (FileNotFoundException e) {
-            System.out.println("Error reading file: " + this.filename);
+            System.out.println("Errore nella lettura del file: " + this.filename);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
