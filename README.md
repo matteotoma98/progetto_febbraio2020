@@ -74,7 +74,10 @@ ___
 ![Diagramma delle sequenze dei metadati](https://i.imgur.com/LYWvBYk.png)
 ___
 **Diagramma delle sequenze dei Dairy**
+
 ![Diagramma delle sequenze dei Dairy](https://imgur.com/7qZbjeU.png)
+
 ___
 **Diagramma delle sequenze delle statistiche**
+
 ![Diagramma delle sequenze delle statistiche](https://imgur.com/2lMCdLx.png)
