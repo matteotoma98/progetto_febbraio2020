@@ -1,3 +1,4 @@
+
 ## Progetto Programmazione ad Oggetti Feb2020
 **Creato da:**
  - **Federico Joseph Panackal** *1083626*
@@ -58,8 +59,17 @@ ___
 ![GET Metadata](https://imgur.com/K5NpTYU.png)
 ___
 **GET Stats**
-![enter image description here](https://imgur.com/qIA6K1H.png)
+![GET Stats](https://imgur.com/qIA6K1H.png)
 ___
+**GET filtro numerico**
+![GET filtro numerico](https://imgur.com/6MtbKpa.png)
+---
+**GET  doppio filtro**
+![GET  doppio filtro](https://imgur.com/cOUZsi4.png)
+--
+**GET Filtro sulle stats**
+![GET Filtro sulle stats](https://imgur.com/KTKeszX.png)
+--
 **Diagramma delle classi**
 ![Diagramma delle classi](https://i.imgur.com/K8ixPsI.png)
 ___
