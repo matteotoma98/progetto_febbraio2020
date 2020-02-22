@@ -126,7 +126,7 @@ public class Statistiche {
     public static Map < String, Object > getStat(String cmp, List < DairyStatus > src) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 
         List values = new ArrayList < > ();
-        if (cmp.contains("20") || (cmp.contains("196"))) { 
+        if (cmp.contains("20") || (cmp.contains("1969"))) { 
             values = LettoreTSV.getYearM((Integer.parseInt(cmp)));
             return getStatistiche(cmp, values); 
         } else if (cmp.contains("1968")) {
