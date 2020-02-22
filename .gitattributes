@@ -1,5 +1,0 @@
-*.java linguist-detectable=true
-*.html linguist-detectable=false
-*.xml linguist-detectable=false
-*.javascript linguist-detectable=false
-*.rb linguist-language=Java
