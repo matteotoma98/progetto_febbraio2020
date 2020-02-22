@@ -62,13 +62,13 @@ ___
 ![GET Stats](https://imgur.com/qIA6K1H.png)
 ___
 **GET filtro numerico**
-![GET filtro numerico](https://imgur.com/6MtbKpa.png)
+![GET filtro numerico](https://imgur.com/3IC0PTS.png)
 ---
 **GET  doppio filtro**
-![GET  doppio filtro](https://imgur.com/cOUZsi4.png)
+![GET  doppio filtro](https://imgur.com/GzGc3yW.png)
 --
 **GET Filtro sulle stats**
-![GET Filtro sulle stats](https://imgur.com/KTKeszX.png)
+![GET Filtro sulle stats](https://imgur.com/C9fVoPY.png)
 --
 **Diagramma delle classi**
 ![Diagramma delle classi](https://i.imgur.com/K8ixPsI.png)
